@@ -1,0 +1,14 @@
+ <main role="main" class="flex-shrink-0">
+    <div class="container">
+    <img class="mr-3 rounded align-self-center img-fluid" 
+      style="width:400px;" [src]="customers.cust_image" alt="{{ 'Photo of ' + customers.cust_name }}">
+    <div class="media-body align-self-center">
+      <h3 class="m-0">View Customer Detail</h3>
+      <p>Id: {{customers.cust_id}}</p>
+      <p>Name: {{customers.cust_name}}</p>
+      <p>Gender: {{customers.cust_gender}}</p>
+      <p>Martial status: {{customers.cust_martial_status}}</p>
+      <p>Address: {{customers.cust_address}}</p>
+    </div>
+    </div>
+</main> 
