@@ -1,0 +1,18 @@
+server.port=8080
+server.servlet.context-path=/custapp
+spring.datasource.url=jdbc:postgresql://localhost:5432/customer_db
+spring.datasource.username=postgres
+spring.datasource.password=200058926081
+#spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+# Custom H2 Console URL
+spring.h2.console.path=/h2
+
+spring.jpa.hibernate.ddl-auto=update
+
+logging.level.org.springframework.web: DEBUG
+logging.level.org.hibernate: ERROR
+
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true

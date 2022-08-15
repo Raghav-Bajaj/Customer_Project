@@ -1,0 +1,29 @@
+package com.customerApp.dao;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class CustomerDaoTest {
+
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+
+	
+	
+	@Test
+	void given_when_then() {
+		fail("Not yet implemented");
+	}
+	
+	
+	@AfterEach
+	void tearDown() throws Exception {
+	}
+
+
+
+}
